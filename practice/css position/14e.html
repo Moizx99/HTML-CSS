@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 8px 50px;
+    }
+
+    .picture {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 20px;
+
+      margin-right: 10px;
+    }
+
+    .left-side {
+      display: flex;
+      align-items: center;
+    }
+
+    .title {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+
+    .add {
+      background-color: rgb(72, 119, 248);
+      color: white;
+      padding: 8px 10px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-right: 4px;
+    }
+
+    .message-m {
+      background-color: rgb(202, 202, 202);
+      color: black;
+      font-weight: bold;
+      padding: 8px 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body style="height: 3000px;">
+  
+  <div class="header">
+
+    <div class="left-side">
+
+      <div class="pic">
+        <img src="cat.jpg" alt="" class="picture">
+      </div>
+      <div class="title">
+        Oliver Cat
+      </div>
+    </div>
+
+    <div class="right-side">
+      <Button class="add">Add Friend</Button>
+      <button class="message-m">Message</button>
+    </div>
+
+
+  </div>
+</body>
+</html>

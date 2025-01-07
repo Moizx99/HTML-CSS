@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+.leftheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  background-color: rgb(44, 40, 40);
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.sidebar2 {
+  position: fixed;
+  top: 0;
+  left: 70px;
+  bottom: 0;
+  background-color: rgb(68, 68, 68);
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  width: 200px;
+  
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-bottom: 4px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 6px;
+  margin-bottom: 12px;
+}
+
+.info-bar {
+  color: white;
+  font-size: 14px;
+}
+
+.plus {
+  color: gray;
+  font-size: 28px;
+}
+
+.new,
+.updates,
+.faq {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+div{
+  font-family: Arial, Helvetica, sans-serif;
+}
+  </style>
+
+</head>
+<body style="height: 3000px;">
+  
+<div class="leftheader">
+
+  <div class="left">
+
+    <div>
+      <img src="cat.jpg" alt="">
+    </div>
+    <div>
+      <img src="cat2.jpg" alt="">
+    </div>
+    <div>
+      <img src="dog.jpg" alt="">
+    </div>
+    
+  </div>
+
+</div>
+
+<div class="sidebar2">
+
+  <div class="info-row">
+    <div class="info-bar">INFO</div>
+    <div class="plus">+</div>
+  </div>
+
+  <div class="new"># new-videos</div>
+  <div class="updates"># updates</div>
+  <div class="faq"># faq</div>
+
+</div>
+  
+
+
+</body>
+</html>
