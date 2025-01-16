@@ -42,6 +42,23 @@
   row-gap: 40px;
 }
 
+@media (max-width: 750px) {
+  .videos-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 750px) {
+  .videos-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) {
+  .videos-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
 .time-show {
   position: absolute;
   bottom: 10px;
